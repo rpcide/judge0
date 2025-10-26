@@ -24,6 +24,8 @@ RUN apt-get update && \
 
 EXPOSE 2358
 
+
+
 WORKDIR /api
 
 COPY Gemfile* ./
